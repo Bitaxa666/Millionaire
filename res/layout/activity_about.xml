@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+   
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_about1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#FF9900"
+        android:textStyle="italic"
+        android:text="TextAbout" />
+
+    <ToggleButton
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:textColor="@color/text_color"
+        android:drawableLeft="@drawable/icone_phone"
+        android:drawableRight="@drawable/icon_on_off"
+        android:background="@drawable/button_background"
+        android:textOff="@string/telefonia"
+        android:textOn="@string/telefonia" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="@drawable/mil_answer"  
+        android:textColor="#FFEF12"
+        android:text="@string/start_game" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:textSize="24sp"
+        android:background="@drawable/mil_answer"   
+        android:textColor="#FFEF12"     
+        android:text="@string/record" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="@drawable/mil_answer"  
+        android:textColor="#FFEF12"
+        android:text="@string/exit" />
+
+</LinearLayout>
